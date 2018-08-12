@@ -11,14 +11,10 @@ namespace BusesClass
         static void Main(string[] args)
         {
             Bus bus1 = new Bus();
-            Console.WriteLine("Enter bus colour: ");
-            bus1.SetColour(Console.ReadLine());
-            Console.WriteLine("Enter bus rego: ");
-            bus1.SetRego(Console.ReadLine());
-            Console.WriteLine("Enter number of bus doors: ");
-            bus1.SetDoors(int.Parse(Console.ReadLine()));
-            Console.WriteLine("Enter number of bus seats: ");
-            bus1.SetSeats(int.Parse(Console.ReadLine()));
+            bus1.SetColour("blue");
+            bus1.SetRego("ERT123");
+            bus1.SetDoors(5);
+            bus1.SetSeats(24);
             Console.WriteLine($"Colour: {bus1.GetColour()}\nRego: {bus1.GetRego()}\nDoors: {bus1.GetDoors()}\nSeats: {bus1.GetSeats()}");
         }
     }
