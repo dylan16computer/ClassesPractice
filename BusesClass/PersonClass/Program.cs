@@ -10,7 +10,7 @@ namespace PersonClass
     {
         static void Main(string[] args)
         {
-            Person person1 = new Person("John", "Smith", 32, "32 Timothy Way", 0212345678);
+            Person person1 = new Person("John", "Smith", 32, "32 Timothy Way", 212345678);
             Console.WriteLine(person1.GetDetails());
         }
     }

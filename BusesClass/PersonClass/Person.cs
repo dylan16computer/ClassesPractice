@@ -35,7 +35,7 @@ namespace PersonClass
         }
         public string GetDetails()
         {
-            return $"First Name: {GetFirstName()}\nLast Name: {GetLastName()}\nAge: {GetAge()}\nAddress: {GetAddress()}\nPhone: {GetPhone()}";
+            return $"First Name: {GetFirstName()}\nLast Name: {GetLastName()}\nAge: {GetAge()}\nAddress: {GetAddress()}\nPhone: 0{GetPhone()}";
         }
 
         public Person(string fname, string lname, int _age, string add, int _phone)
